@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Temperature Conversion</title>
+  </head>
+  <body>
+    <h1>Temperature Conversion</h1>
+    <div class="main-container">
+      <div class="content">
+        <form>
+          <input placeholder="Enter value" id="value" />
+          <select id="temp" name="temp">
+            <option value="celcius">Celcius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </form>
+        <p id="demo"></p>
+      </div>
+      <button onclick="fromCelsius()">Convert</button>
+      <div class="answer">
+        <form action="">
+          <input id="result" />
+          <select id="tempValue" name="tempValue">
+            <option value="cel">Celcius</option>
+            <option value="fah">Fahrenheit</option>
+            <option value="kel">Kelvin</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
