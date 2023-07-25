@@ -61,3 +61,14 @@ input {
         margin-top: 80px;
     }
 }
+@media (max-width: 1400px) {
+    select {
+        width: 25%;
+        height: 30px;
+    }
+    input {
+        width: 65%;
+        height: 30px;
+    }
+        
+}
